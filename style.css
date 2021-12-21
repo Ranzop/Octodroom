@@ -1,0 +1,66 @@
+header {
+background-color: rgb(128, 226, 31);
+color: coral;
+font-size: 3rem;
+font-family:cursive;
+}
+
+body{
+    background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
+    color: darkgoldenrod;
+    font-size: smaller;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* this sets the height to a minimum of 100% vertical height */
+    border: solid 1px red;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex: 1 1 0%;
+    /* 0 indicates that it will take up any space left over */
+    background-color: rgb(128, 226, 31);
+    color: coral;
+    border: solid red;
+    font-size: 3rem;
+    font-family:cursive;
+}
+
+article.main {
+    background-color:rgb(128, 226, 31);
+    flex: 1;
+    /* This is the exact same code as above,
+    and makes sure all available space is taken up */
+}
+
+aside {
+    flex: 0 0 25%;
+    /* 0 for grow, determines the % it takes up when you enlargen the size
+    0 for shrink, determines how much the shrinkage is
+    25% for how the fraction of the page it will take */
+    background-color: sandybrown;
+}
+
+.sidebar1 {
+    background-color: darkgoldenrod;
+    font-size: xx-large;
+    color:fuchsia;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar2 {
+    background-color: indigo;
+    font-size: x-large;
+    color:limegreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+
+footer {
+    background-color: maroon;
+    font-size: xx-small;
+    color: mediumturquoise;
+    font-family: cursive;
+}
