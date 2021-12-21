@@ -16,6 +16,11 @@ body{
     border: solid 1px red;
 }
 
+h1 {
+    font-family:monospace;
+}
+
+
 main {
     display: flex;
     width: 80%;
@@ -23,7 +28,6 @@ main {
     flex: 1 1 0%;
     /* 0 indicates that it will take up any space left over */
     background-color: rgb(128, 226, 31);
-    color: coral;
     border: solid red;
     font-size: 3rem;
     font-family:cursive;
@@ -49,6 +53,8 @@ aside {
     font-size: xx-large;
     color:fuchsia;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    order: -1;
+    /* (-1) moves the sidebar to the left */
 }
 
 .sidebar2 {
