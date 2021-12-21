@@ -1,0 +1,12 @@
+body {
+    grid-template-columns: 3;
+    grid-template-rows: auto 1fr 2fr 2.5fr auto auto auto;
+    
+}
+    // We can define the width of the columns, 
+    first we define the amount of columns,
+    and then we tell them how much space to take up //
+
+head {
+    
+}
